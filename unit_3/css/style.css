@@ -9,8 +9,12 @@ body {
 	text-transform: uppercase;
 }
 
-h1, p {
+h1 {
 	color: #dead00;
 	font-family: helvetica, sans-serif;
+}
 
+p {
+	color: #8b8989;
+	font-family: helvetica, sans-serif;
 }
