@@ -1,0 +1,16 @@
+body {
+	background-color: #fff;
+}
+
+#slogan {
+	color: #dead00;
+	font-family: helvetica, sans-serif;
+	font-style: italic;
+	text-transform: uppercase;
+}
+
+h1, p {
+	color: #8b8989;
+	font-family: helvetica, sans-serif;
+
+}
