@@ -10,18 +10,18 @@ body {
 #slogan {
 	color: #8b8989;
 	font-family: 'markazi text', sans-serif;
-	font-size: 2em;
+	font-size: 4em;
 	text-transform: uppercase;
 }
 
 h1 {
 	color: #dead00;
 	font-family: 'markazi text', serif;
-	font-size: 18px;
+	font-size: 6em;
 }
 
 p {
 	color: #8b8989;
 	font-family: oswald, sans-serif;
-	font-size: 12px;
+	font-size: 2em;
 }
