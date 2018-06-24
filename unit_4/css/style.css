@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Markazi+Text');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+
+body {
+	background-color: #fff;
+	text-align: center;
+}
+
+#slogan {
+	color: #8b8989;
+	font-family: 'markazi text', sans-serif;
+	font-variant: small-caps;
+	text-transform: uppercase;
+}
+
+h1 {
+	color: #dead00;
+	font-family: 'markazi text', serif;
+}
+
+p {
+	color: #8b8989;
+	font-family: oswald, sans-serif;
+}
