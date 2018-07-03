@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Markazi+Text');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+
+body {
+	background-color: #fff;
+	text-align: center;
+}
+
+header { 
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding: 20px;
+ }
+
+nav {
+	background-color: E8C66A;
+}
+
+aside {
+	background-color: #FFC675;
+}
+
+article {
+	background-color: #E89C6C;
+}
+
+footer {
+	background-color: #FF957E;
+}
+
+div {
+	background-color: #FFE2B8;
+}
+
+#slogan {
+	color: #8b8989;
+	font-family: 'markazi text', sans-serif;
+	font-size: 4em;
+	text-transform: uppercase;
+}
+
+h1 {
+	color: #dead00;
+	font-family: 'markazi text', serif;
+	font-size: 6em;
+}
+
+p {
+	color: #8b8989;
+	font-family: oswald, sans-serif;
+	font-size: 2em;
+}
