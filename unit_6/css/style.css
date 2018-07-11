@@ -35,6 +35,11 @@ article {
 
 footer {
 	background-color: #000;
+	color: #fff;
+	font-family: 'oswald', sans-serif;
+	font-size: 1.25em;
+	display: block;
+	padding: 30px;
 }
 
 div {
