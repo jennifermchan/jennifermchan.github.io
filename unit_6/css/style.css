@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Markazi+Text');
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond');
 @import url('https://fonts.googleapis.com/css?family=Oswald');
 
 
@@ -8,14 +8,22 @@ body {
 }
 
 header { 
-	background-color: #000;
-	border: 1px black solid;
-	padding: 20px;
+	background-color: none;
+	height: 100%;
  }
 
 nav {
 	background-color: #000;
 }
+
+a {
+	color: #fff;
+	font-family: 'oswald', sans-serif;
+	font-size: 1.25em;
+	display: block;
+	float: left;
+	padding: 20px;
+ }
 
 aside {
 	background-color: #fff;
@@ -35,9 +43,15 @@ div {
 
 #slogan {
 	color: #CCA900;
-	font-family: 'oswald', serif;
+	font-family: 'oswald', sans-serif;
 	font-size: 4em;
 	text-transform: uppercase;
+}
+
+#films {
+    background-color: #fff;
+    border: none;
+    padding: 20px;
 }
 
 h1 {
@@ -46,26 +60,54 @@ h1 {
 	font-size: 3em;
 }
 
-h3 {
-	color: #7F7E76;
+h2 {
+	color: #fff;
 	font-family: 'oswald', sans-serif;
 	font-size: 1.25em;
 }
 
-p {
-	color: #7F7E76;
-	font-family: 'markazi text', serif;
-	font-size: 3em;
+h3 {
+	color: #fff;
+	font-family: 'oswald', sans-serif;
+	font-size: 1.25em;
 }
 
+h4 {
+	color: #CCA900;
+	font-family: 'oswald', sans-serif;
+	font-size: 1.5em;
+	text-transform: uppercase;
+}
+
+p {
+	color: #7F7E76;
+	font-family: 'EB+Garamond', serif;
+	font-size: 1.15em;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+	color: #7F7E76;
+	font-family: 'oswald', sans-serif;
+	font-size: 1.15em;
+	float: left;
+	width: 50%;
+	height: 4em;
+	text-align: center;
+}
+
+
 #two_column {
-    background-color: #fff;
+    background-color: #000;
     border: none;
     padding: 20px;
 }
 
 #left {
-    background-color: #fff;
+    background-color: #000;
     border: none;
     padding: 20px;
     float: left;
@@ -73,7 +115,7 @@ p {
 }
 
 #right {
-    background-color: #fff;
+    background-color: #000;
     border: none;
     padding: 20px;
     float: right;   
@@ -81,7 +123,7 @@ p {
 }
 
 #two_column2 {
-    background-color: #FFB7CF;
+    background-color: #fff;
     border: none;
     padding: 20px;
 }
