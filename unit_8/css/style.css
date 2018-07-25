@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+
+body {
+	background-color: #fff;
+	text-align: center;
+}
+
+header { 
+	background-color: #fff;
+	background-image: url(images/20140519_172040.jpg);
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+	height: 100%;
+ }
+
+nav {
+	background-color: #000;
+}
+
+a {
+	color: #fff;
+	font-family: 'oswald', sans-serif;
+	font-size: 1.25em;
+	display: block;
+	float: left;
+	padding: 20px;
+ }
+
+aside {
+	background-color: #fff;
+}
+
+article {
+	background-color: #fff;
+}
+
+footer {
+	background-color: #000;
+	color: #fff;
+	font-family: 'oswald', sans-serif;
+	font-size: 1.25em;
+	display: block;
+	padding: 30px;
+}
+
+div {
+	background-color: #fff;
+}
+
+#slogan {
+	color: #CCA900;
+	font-family: 'oswald', sans-serif;
+	font-size: 4em;
+	text-transform: uppercase;
+}
+
+#films {
+    background-color: #fff;
+    border: none;
+    padding: 20px;
+}
+
+h1 {
+	color: #000;
+	font-family: 'oswald', sans-serif;
+	font-size: 3em;
+}
+
+h2 {
+	color: #000;
+	font-family: 'oswald', sans-serif;
+	font-size: 1.25em;
+}
+
+h3 {
+	color: #fff;
+	font-family: 'oswald', sans-serif;
+	font-size: 1.25em;
+}
+
+h4 {
+	color: #CCA900;
+	font-family: 'oswald', sans-serif;
+	font-size: 1.5em;
+	text-transform: uppercase;
+}
+
+p {
+	color: #7F7E76;
+	font-family: 'EB+Garamond', serif;
+	font-size: 1.15em;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+	color: #7F7E76;
+	font-family: 'oswald', sans-serif;
+	font-size: 1.15em;
+	float: left;
+	width: 50%;
+	height: 4em;
+	text-align: center;
+}
+
+
+#two_column {
+    background-color: #000;
+    border: none;
+    padding: 20px;
+}
+
+#left {
+    background-color: #000;
+    border: none;
+    padding: 20px;
+    float: left;
+    width: 30%;
+}
+
+#right {
+    background-color: #000;
+    border: none;
+    padding: 20px;
+    float: right;   
+    width: 62%;
+}
+
+#two_column2 {
+    background-color: #fff;
+    border: none;
+    padding: 20px;
+}
+
+#left2 {
+    background-color: #fff;
+    border: none;
+    padding: 5px;
+    float: left;
+    width: 46%;
+}
+
+#right2 {
+    background-color: #fff;
+    border: none;
+    padding: 5px;
+    float: right;   
+    width: 46%;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
