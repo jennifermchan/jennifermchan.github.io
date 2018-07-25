@@ -5,15 +5,20 @@
 body {
 	background-color: #fff;
 	text-align: center;
+	font-size: 14px
+}
+
+.top-image {
+    position: relative;
+    text-align: center;
+    color: white;
 }
 
 header { 
-	background-color: #fff;
-	background-image: url(images/20140519_172040.jpg);
-    background-position: 100% 100%;
-    background-repeat: no-repeat;
+	background-color: none;
 	height: 100%;
  }
+
 
 nav {
 	background-color: #000;
@@ -23,10 +28,18 @@ a {
 	color: #fff;
 	font-family: 'oswald', sans-serif;
 	font-size: 1.25em;
-	display: block;
-	float: left;
-	padding: 20px;
+	padding: 10px;
  }
+
+#left {
+	float: left;
+}
+
+#right {
+	display: block;
+	padding: 20px;
+	float: right;
+}
 
 aside {
 	background-color: #fff;
@@ -52,15 +65,35 @@ div {
 #slogan {
 	color: #CCA900;
 	font-family: 'oswald', sans-serif;
-	font-size: 4em;
+	font-size: 3.5em;
 	text-transform: uppercase;
+	position: absolute;
+    top: 70px;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 #films {
     background-color: #fff;
     border: none;
-    padding: 20px;
 }
+
+* {
+    box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 
 h1 {
 	color: #000;
@@ -159,4 +192,164 @@ li {
     content: " ";
     clear: both;
     height: 0;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #7F7E76;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #CCA900;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #CCA900;
+}
+
+.contactform {
+    border-radius: 5px;
+    background-color: #7F7E76;
+    padding: 20px;
+}
+
+
+
+
+@media only screen and (max-width: 1055px) {
+	#left {
+	    background-color: #000;
+	    border: none;
+	    padding: 20px;
+	    float: left;
+	    width: 20%;
+	}
+
+	#right {
+	    background-color: #000;
+	    border: none;
+	    padding: 20px;
+	    float: right;   
+	    width: 52%;
+	}
+}
+
+
+@media only screen and (max-width: 952px) {
+	#left {
+	    background-color: #000;
+	    border: none;
+	    padding: 10px;
+	    float: left;
+	    width: 15%;
+	}
+
+	#right {
+	    background-color: #000;
+	    border: none;
+	    padding: 10px;
+	    float: right;   
+	    width: 48%;
+	}
+}
+
+@media only screen and (max-width: 632px) {
+	#slogan {
+	color: #CCA900;
+	font-family: 'oswald', sans-serif;
+	font-size: 3em;
+	text-transform: uppercase;
+	position: absolute;
+    top: 70px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+    #films {
+  		width: 100%;
+}
+
+    #team {
+  		width: 100%;
+}
+
+	#left {
+	    background-color: #000;
+	    border: none;
+	    padding: 10px;
+	    float: left;
+	    width: 15%;
+	}
+
+	#right {
+	    background-color: #000;
+	    border: none;
+	    padding: 10px;
+	    float: right;   
+	    width: 48%;
+	}
+
+	.column {
+  float: left;
+  width: 100%;
+  padding: 5px;
+}
+}
+
+
+
+
+@media only screen and (max-width: 552px) {
+#left2 {
+    background-color: #fff;
+    border: none;
+    padding: 5px;
+    float: left;
+	width: 100%;
+	}
+
+#right2 {
+    background-color: #fff;
+    border: none;
+    padding: 5px;
+    float: right;   
+    width: 100%;
+	}
+}
+
+
+@media only screen and (max-width: 535px) {
+	#slogan {
+	color: #CCA900;
+	font-family: 'oswald', sans-serif;
+	font-size: 2.5em;
+	text-transform: uppercase;
+	position: absolute;
+    top: 70px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+    #films {
+  		width: 100%;
+}
+
+    #team {
+  		width: 100%;
+}
+
+	#right {
+	    display: none;
+	}
 }

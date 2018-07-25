@@ -7,41 +7,50 @@
 </head>
 
 <body>
-
-<div class="wrapper">
-	
-
-
-	<header>
+<div class="container">
 	<nav>
 		<section id="two_column" class="clearfix">
-		    <aside id="left">
-		      <a href="index.html">JSQUARED RODUCTIONS</a>
+			  <aside id="left">
+			  <a href="index.html">JSQUARED PRODUCTIONS</a>
 
-		    </aside>
-		    <article id="right">
-		        <a href="ourfilms.html">OUR FILMS</a>
-		        <a href="qualityfootage.html">QUALITY FOOTAGE</a>
-		        <a href="meettheteam.html">MEET THE TEAM</a>
-		        <a href="inquire.html">INQUIRE</a>
-		    </article>
+			    </aside>
+			    <article id="right">
+			        <a href="ourfilms.html">OUR FILMS</a>
+			        <a href="qualityfootage.html">QUALITY FOOTAGE</a>
+			        <a href="meettheteam.html">MEET THE TEAM</a>
+			        <a href="inquire.html">INQUIRE</a>
+			  	 </article>
 		</section>
 	</nav>
 
-	<p id="slogan">START TELLING YOUR STORY NOW.</p>
-	</header>
+	<div class="top-image">
+		
+		<img src="images/20140519_172040.jpg" alt="koreapeople" width="100%">
 
+		<header>
+		<p id="slogan">START TELLING YOUR STORY NOW.</p>
+		</header>
+	</div>
 
 	
 	<section id=one>
 
 		<article id="films">
 			<h1>OUR FILMS</h1>
-			<img src="images/20140525_151117.jpg" alt="sample film 1" width="25%">
-			<img src="images/20140818_194426.jpg" alt="sample film 2" width="25%">
-			<img src="images/IMG_20180222_184511_122.jpg" alt="sample film 3" width="25%">
-			<p>We want to deliver an unforgettable experience for you. 
-			</p>
+
+			<div class="row">
+				 <div class="column">
+			 		<img src="images/20140525_151117.jpg" alt="sample film 1" width="100%">
+				</div>
+				 <div class="column">
+				 	<img src="images/20140818_194426.jpg" alt="sample film 2" width="100%">
+				 </div>
+				 <div class="column">
+				 	<img src="images/IMG_20180222_184511_122.jpg" alt="sample film 3" width="100%">
+				 </div>
+			</div>
+			
+			<p>We want to deliver an unforgettable experience for you.</p>
 		</article>
 
 		<article id="footage">
@@ -76,13 +85,28 @@
 		<article id="inquire">
 			<h1>INQUIRE</h1>
 			<h4>We want to work with you!</h4>
-			<p>Content Box</p>
+			
+			<div class="contactform">
+				  <form action="/action_page.php">
+				    <label for="fname">First Name</label>
+				    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+				    <label for="lname">Last Name</label>
+				    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+				    <label for="subject">Subject</label>
+				    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+				    <input type="submit" value="Submit">
+				  </form>
+			</div>
+
 		</article>
 
 	</section>
 
 	<footer>
-		<p>CTA here (phone, copyright) - social medias</p>
+		<p>FB « Instagram</p>
 	</footer>
 
 </div>
