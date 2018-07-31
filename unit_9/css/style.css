@@ -1,0 +1,383 @@
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+
+body {
+	background-color: #fff;
+	text-align: center;
+	font-size: 14px
+}
+
+.top-image {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+header { 
+	background-color: none;
+	height: 100%;
+ }
+
+
+nav {
+	background-color: none;
+	position: absolute;
+	z-index: 1;
+	width: 100%;
+}
+
+nav a{
+	color: #000;
+	font-family: 'oswald', sans-serif;
+	font-size: 1.15em;
+	padding: 10px;
+	text-decoration: none;
+}
+
+a {
+	color: #fff;
+	font-family: 'oswald', sans-serif;
+	font-size: 1.15em;
+	padding: 10px;
+	text-decoration: none;
+ }
+
+#left {
+	float: left;
+}
+
+#right {
+	display: block;
+	padding: 20px;
+	float: right;
+}
+
+#right a{
+	white-space: nowrap;
+}
+
+aside {
+	background-color: #fff;
+}
+
+article {
+	background-color: #fff;
+}
+
+footer {
+	background-color: #000;
+	color: #fff;
+	font-family: 'oswald', sans-serif;
+	font-size: 1em;
+	display: block;
+	padding: 30px;
+	letter-spacing: 10px;
+}
+
+div {
+	background-color: #fff;
+}
+
+#slogan {
+	color: #CCA900;
+	font-family: 'oswald', sans-serif;
+	font-size: 3.5em;
+	text-transform: uppercase;
+	position: absolute;
+    top: 70px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#films {
+    background-color: #fff;
+    border: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+h1 {
+	color: #000;
+	font-family: 'oswald', sans-serif;
+	font-size: 3em;
+}
+
+h2 {
+	color: #000;
+	font-family: 'oswald', sans-serif;
+	font-size: 1.25em;
+}
+
+h3 {
+	color: #fff;
+	font-family: 'oswald', sans-serif;
+	font-size: 1.25em;
+}
+
+h4 {
+	color: #CCA900;
+	font-family: 'oswald', sans-serif;
+	font-size: 1.5em;
+	text-transform: uppercase;
+}
+
+p {
+	color: #7F7E76;
+	font-family: 'EB+Garamond', serif;
+	font-size: 1.15em;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+	color: #7F7E76;
+	font-family: 'oswald', sans-serif;
+	font-size: 1.15em;
+	float: left;
+	width: 50%;
+	height: 4em;
+	text-align: center;
+}
+
+
+#two_column {
+    border: none;
+    padding: 20px;
+}
+
+#left {
+    border: none;
+    padding: 20px;
+    float: left;
+    width: 30%;
+}
+
+#right {
+    border: none;
+    padding: 20px;
+    float: right;   
+    width: 62%;
+}
+
+#two_column2 {
+    background-color: #fff;
+    border: none;
+    padding: 20px;
+}
+
+#left2 {
+    background-color: #fff;
+    border: none;
+    padding: 5px;
+    float: left;
+    width: 46%;
+}
+
+#right2 {
+    background-color: #fff;
+    border: none;
+    padding: 5px;
+    float: right;   
+    width: 46%;
+}
+
+#inquire {
+	max-width: 500px;
+	margin: 0 auto;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #7F7E76;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #CCA900;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #CCA900;
+}
+
+.contactform {
+    border-radius: 5px;
+    background-color: #7F7E76;
+    padding: 20px;
+}
+
+
+
+
+@media only screen and (max-width: 1055px) {
+	#left {
+	    border: none;
+	    padding: 20px;
+	    float: left;
+	    width: 20%;
+	}
+
+	#right {
+	    border: none;
+	    padding: 20px;
+	    float: right;   
+	    width: 52%;
+	}
+}
+
+
+@media only screen and (max-width: 952px) {
+	#left {
+
+	    border: none;
+	    padding: 10px;
+	    float: left;
+	    width: 15%;
+	}
+
+	#right {
+	    border: none;
+	    padding: 10px;
+	    float: right;   
+	    width: 48%;
+	}
+}
+
+@media only screen and (max-width: 632px) {
+	#slogan {
+	color: #CCA900;
+	font-family: 'oswald', sans-serif;
+	font-size: 3em;
+	text-transform: uppercase;
+	position: absolute;
+    top: 70px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+    #films {
+  		width: 100%;
+}
+
+    #team {
+  		width: 100%;
+}
+
+	#left {
+	    border: none;
+	    padding: 10px;
+	    float: left;
+	    width: 15%;
+	}
+
+	#right {
+	    border: none;
+	    padding: 10px;
+	    float: right;   
+	    width: 48%;
+	}
+
+	.column {
+  float: left;
+  width: 100%;
+  padding: 5px;
+}
+}
+
+
+
+
+@media only screen and (max-width: 552px) {
+#left2 {
+    background-color: #fff;
+    border: none;
+    padding: 5px;
+    float: left;
+	width: 100%;
+	}
+
+#right2 {
+    background-color: #fff;
+    border: none;
+    padding: 5px;
+    float: right;   
+    width: 100%;
+	}
+}
+
+
+@media only screen and (max-width: 535px) {
+	#slogan {
+	color: #CCA900;
+	font-family: 'oswald', sans-serif;
+	font-size: 2.15em;
+	text-transform: uppercase;
+	position: absolute;
+    top: 70px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+    #films {
+  		width: 100%;
+}
+
+    #team {
+  		width: 100%;
+}
+
+	#right {
+	    display: none;
+	}
+
+	.burger {
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
+}
+}
