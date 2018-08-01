@@ -58,11 +58,11 @@ a {
 }
 
 aside {
-	background-color: #fff;
+	background-color: none;
 }
 
 article {
-	background-color: #fff;
+	background-color: none;
 }
 
 footer {
@@ -85,7 +85,7 @@ div {
 	font-size: 3.5em;
 	text-transform: uppercase;
 	position: absolute;
-    top: 70px;
+    top: 100px;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -191,7 +191,6 @@ li {
 }
 
 #left2 {
-    background-color: #fff;
     border: none;
     padding: 5px;
     float: left;
@@ -199,7 +198,6 @@ li {
 }
 
 #right2 {
-    background-color: #fff;
     border: none;
     padding: 5px;
     float: right;   
@@ -219,6 +217,11 @@ li {
     clear: both;
     height: 0;
 }
+
+ #footage li { 
+ 	margin: 15px auto;
+ }
+ 
 
 input[type=text], select, textarea {
     width: 100%;
@@ -333,7 +336,6 @@ input[type=submit]:hover {
 
 @media only screen and (max-width: 552px) {
 #left2 {
-    background-color: #fff;
     border: none;
     padding: 5px;
     float: left;
@@ -341,7 +343,6 @@ input[type=submit]:hover {
 	}
 
 #right2 {
-    background-color: #fff;
     border: none;
     padding: 5px;
     float: right;   
@@ -377,7 +378,8 @@ input[type=submit]:hover {
 	.burger {
     width: 35px;
     height: 5px;
-    background-color: white;
-    margin: 6px 0;
+    background-color: #000;
+    margin: 5px 0;
+    margin-left: auto;
 }
 }
